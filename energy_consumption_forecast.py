@@ -49,8 +49,8 @@ print(f'Mean Squared Error: {mse}')
 
 # Plot the actual vs predicted values
 plt.figure(figsize=(14, 7))
-plt.plot(test.index, y_test, label='Actual', color='blue')
-plt.plot(test.index, predictions, label='Predicted', color='red')
+plt.plot(test.index, y_test, label='Actual', color='red')
+plt.plot(test.index, predictions, label='Predicted', color='blue')
 plt.xlabel('Date')
 plt.ylabel('Energy Consumption')
 plt.title('Energy Consumption Forecasting')
